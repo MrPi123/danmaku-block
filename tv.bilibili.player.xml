@@ -1,0 +1,18 @@
+<filters>
+    <item enabled="true">t=^.$</item> <!-- 单字符 -->
+    <item enabled="true">t=会员|承包</item>
+    <item enabled="true">t=老(婆|公)</item>
+    <item enabled="true">t=弹幕</item>
+    <item enabled="true">t=(参见|恭迎)\S王</item>
+    <item enabled="true">t=(\d*|[一二三四五六七八九十]*)\s*集</item> <!-- 集数相关 -->
+    <item enabled="true">t=暴露|报露</item>
+    <item enabled="true">t=空降|指挥部|空难|不跳|盲降|报告总部|降落</item>
+    <item enabled="true">t=卡\w*[Pp]{2}[Tt]</item>
+    <item enabled="true">t=站住|等我|加我|考古|伙伴|个朋友|打死你|尴尬</item>
+    <item enabled="true">t=\S*如果\S*有\S*那一\S*是</item> <!-- 虽然我是 LLer 但太多智障到处乱刷 -->
+    <item enabled="true">t=(第|前)\s*(\d*|[一二三四五六七八九十]*)</item>
+    <item enabled="true">t=[红黄蓝绿青橙黑白紫棕灰]字</item>
+    <item enabled="true">t=\d{1,2}(.|:|;|。|：|；)\d{1,2}</item> <!-- 时间 -->
+    <item enabled="true">t=(\d*|[一二三四五六七八九十]*)\s*(点|月|日|分|时|年)</item> <!-- 时间 -->
+    <item enabled="true">t=见.*滚|从隔壁|^没人</item>
+</filters>
