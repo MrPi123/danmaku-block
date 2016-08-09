@@ -16,5 +16,5 @@
     <item enabled="true">t=(\d*|[一二三四五六七八九十]*)\s*(点|月|日|分|时|年)</item> <!-- 时间 -->
     <item enabled="true">t=见.*滚|从隔壁|^没人|就我一(个|人)</item>
     <item enabled="true">t=(敲|扣|打)(一|1)|吱|一声</item>
-    <item enabled="true">t=中国|国产|国漫|天朝|我朝|国配|</item>
+    <item enabled="true">t=中国|国产|国漫|天朝|我朝|国配</item>
 </filters>
