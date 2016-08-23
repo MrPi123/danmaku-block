@@ -1,20 +1,21 @@
 <filters>
     <item enabled="true">t=^.$</item> <!-- 单字符 -->
-    <item enabled="true">t=会员|承包</item>
-    <item enabled="true">t=老(婆|公)</item>
-    <item enabled="true">t=弹幕</item>
-    <item enabled="true">t=(参见|恭迎)\S王</item>
-    <item enabled="true">t=(\d*|[一二三四五六七八九十]*)\s*集</item> <!-- 集数相关 -->
-    <item enabled="true">t=暴露|报露</item>
-    <item enabled="true">t=空降|指挥部|空难|不跳|盲降|报告总部|降落|坐标</item> <!-- OP ED 相关 -->
-    <item enabled="true">t=卡\w*[Pp]{2}[Tt]</item>
-    <item enabled="true">t=站住|等我|加我|考古|伙伴|个朋友|打死你|尴尬|支持</item>
-    <item enabled="true">t=\S*如果\S*有\S*那一\S*是</item> <!-- 虽然我是 LLer 但太多智障到处乱刷 -->
+    <item enabled="true">t=会员|承包|弹幕</item>
+    <item enabled="true">t=老(婆|公)|暴[露露]|(参.?|恭.?).?王|卡.*[Pp]{2}[Tt]</item>
+    <item enabled="true">t=(\d+|[一二三四五六七八九十百千万亿]+)\s*集</item> <!-- 集数相关 -->
+    <item enabled="true">t=空降|指挥部|空难|不跳|盲降|报告总部|降落|坐标|对空|跳([Oo][Pp]|[Ee][Dd])</item> <!-- OP ED 相关 -->
+    <item enabled="true">t=站住|等我|加我|考古|个朋友|打死你|尴尬|支持</item>
+    <item enabled="true">t=(大家|伙伴|朋友|你们?)好</item>
+    <item enabled="true">t=.*如果.*有.*那一.*是</item> <!-- 虽然我是 LLer 但太多智障到处乱刷 -->
     <item enabled="true">t=(第|前)\s*(\d*|[一二三四五六七八九十]*)</item>
     <item enabled="true">t=[红黄蓝绿青橙黑白紫棕灰]字</item>
-    <item enabled="true">t=\d{1,2}(.|:|;|。|：|；)\d{1,2}</item> <!-- 时间 -->
-    <item enabled="true">t=(\d*|[一二三四五六七八九十]*)\s*(点|月|日|分|时|年)</item> <!-- 时间 -->
-    <item enabled="true">t=见.*滚|从隔壁|^没人|就我一(个|人)</item>
+    <item enabled="true">t=(\d{1,2})(\.|:|;|。|：|；)+(\d{1,2})</item> <!-- 时间 -->
+    <item enabled="true">t=(\d+|[一二三四五六七八九十]+)\s*(月|日|分|时|年)</item> <!-- 时间 -->
+    <item enabled="true">t=见.*滚|从隔壁|^没人|就我一|人.*多|(好|太|真)早</item>
     <item enabled="true">t=(敲|扣|打)(一|1)|吱|一声</item>
     <item enabled="true">t=中国|国产|国漫|天朝|我朝|国配</item>
+    <item enabled="true">t=法力无边|刷出来|教练|开车</item>
+    <item enabled="true">t=(安静|认真|仔细|专注)\S看|有的|有我|^有$|在这$|休想|人呢|没人|没有人</item>
+    <item enabled="true">t=不\S一\S人|我知道你|飙车|[飘票漂][逸移溢]|倍(数|速)|灵车</item>
+    <item enabled="true">t=(板|版)本</item>
 </filters>
